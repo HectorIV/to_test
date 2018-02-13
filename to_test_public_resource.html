@@ -1,0 +1,112 @@
+
+<html>
+    <head> <!-- Enlaces con los documentos css y titulo de la pagina -->
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8"/>
+        <title>Coordinación de Asignatura</title>
+        <link rel="icon" type="image/png" href="imagen/logo_utp.png"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    </head>
+    
+    <body>
+        <div id="titulo">
+            <img id="logo" src="imagen/logo_utp.png" width="108px" align="right"/>
+            <div id="c_title">
+            <label id="titulo_pag1">
+                Universidad Tecnológica de Panamá
+            </label><br>
+            <label id="titulo_pag">
+                Facultad de Ingeniería de Sistemas Computacionales
+            </label><br>
+            <label id="slogan">
+                Portal de Coordinación de Asignatura
+            </label>
+            </div>
+            <img id="logo2" src="imagen/FISC2.GIF" width="108px" align="left"/>
+        </div>
+        <div id="franja">
+            <br>
+        </div>
+
+        <div id="cuerpo">
+        <br><br>
+        <header id="head_login"> <!-- Encabezado, contiene formulario de inicio de sesión-->
+                    INICIO DE SESIÓN
+        </header> 
+        <div id="login_div">
+            <form action="login.php" method="POST">
+                <fieldset>
+                    <legend>
+                        Ingrese usuario y contraseña
+                    </legend>
+                    <h5>*Si no posee usuario, consulte con el administrador</h5>
+                    </b><a style="text-decoration: none; color:black; font-weight: bold;" href="changepass.php">Click aquí si olvidó su contraseña</a></b>
+                                        <table border="0" cellspacing="5pt" cellpadding="0">
+                        <tr>
+                            <td>
+                                Usuario:
+                            </td>
+                            <td>
+                                <input type="text" name="user_id" size="25" maxlength="20" autofocus placeholder="user002567" required title="Escriba su nombre de usuario para permitir el acceso"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Contraseña:
+                            </td>
+                            <td>
+                                <input type="password" name="password" size="25" maxlength="20" placeholder="Contraseña" required title="Escriba su contraseña para permitir el acceso"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="Enviar"/>
+                    <input type="reset" value="Limpiar"/>
+                </fieldset>
+            </form>
+        </div>
+        <br><br>
+        </div>
+
+        <footer> <!-- Inicio del pie de pagina 
+            <hr>
+            <p>Portal de Coordinación de Asignatura <br>
+            Elaborado por los estudiantes:<br>
+            Dominguez, Eric - Dudley, Eduardo - Gutierrez, Joel - Quinzada, Isaac</p><br>
+            <img src="imagen/logo_utp_grey.png" width="65px"/>-->
+            <p>
+            <center>
+            <table>
+                <tr>
+                    <td>
+                    <img src="imagen/logo_utp_grey.png" width="65px"/>
+                    </td>
+                    <td>
+                    <div class="content" style="color: white;">
+  Universidad Tecnológica de Panamá - 2017<br />
+Dirección: Avenida Universidad Tecnológica de Panamá, Vía Puente Centenario,<br />
+Campus Metropolitano Víctor Levi Sasso, Edificio # 3, Segundo piso.<br />
+Teléfono: 560-3656 o marque gratuitamente al Centro de Atención Ciudadana 3-1-1<br />
+Correo electrónico: buzondesugerencias@utp.ac.pa<br />
+Portal de Coordinación de Asignatura<br />
+Elaborado por los estudiantes:<br>
+            Dominguez, Eric - Dudley, Eduardo - Gutierrez, Joel - Quinzada, Isaac<br>
+            
+  </div>
+                    </td>
+                    <td>
+                    </div><ul id="#mapa_sitio" style="list-style-type: none;">
+<li><a style="text-decoration: none; color:white;" href="principal.php"><span class="primero"></span>Inicio</a></li>
+<li><a style="text-decoration: none; color:white;" href="informe.php"><span class="segundo"></span>Informes</a></li>
+<li><a style="text-decoration: none; color:white;" href="CFormulario.php"><span class="tercero"></span>Formularios</a></li>
+<li><a style="text-decoration: none; color:white;" href="VPlantillas.php"><span class="cuarto"></span>Archivos Subidos</a></li>
+<li><a style="text-decoration: none; color:white;" href="portafolio.php"><span class="quinto"></span>Portafolios</a></li>
+ <li><a style="text-decoration: none; color:white;" href="edit_user.php"><span class="cuarto"></span>Editar Perfil</a></li>
+ <li><a style="text-decoration: none; color:white;" href="credits.php"><span class="cuarto"></span>Créditos</a></li>
+<li><a style="text-decoration: none; color:white;" href="logout.php"><span class="septimo"></span>Cerrar Sesión</a></li>
+</ul> </div>
+                    </td>
+                </tr>
+            </table></center></p>
+        </footer> <!-- Fin del pie de pagina -->
+    </body>
+</html>
